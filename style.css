@@ -14,7 +14,7 @@
 .container{
     width: 800px;
     height: 180px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -77,6 +77,7 @@
 }
 
 
+
 /*-----------------------*/
 .cyber-clock{
     font-family: "Sixtyfour", sans-serif;
@@ -86,3 +87,56 @@
     font-size: 40px;
 }
 /*-----------------------*/
+
+
+/*---Responsive styles for smartphones ---*/
+@media (max-width: 600px){
+    .container{
+        width: 97%;
+        height: 20%;
+        padding: 20px;
+    }
+
+    .clock {
+        flex-direction: row;
+    }
+    .clock span {
+        font-size: 60px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .clock span::after {
+        font-size: 12px;
+        bottom: -2px;
+    }
+    .container::before,
+    .container::after {
+        display: none;
+    }
+    .cyber-clock {
+        padding: 100px;
+        font-size: 20px;
+    }
+    #hrs::after{
+        content: 'HOURS';
+        top: 70px;
+    }
+    #min::after{
+        content: 'MIN';
+        top: 70px;
+    }
+    #sec::after{
+        content: 'SEC';
+        top: 70px;
+    }
+    /*-----------------------*/
+    .cyber-clock{
+        font-family: "Sixtyfour", sans-serif;
+        width: 100%;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 42px;
+}
+/*-----------------------*/
+
+}
