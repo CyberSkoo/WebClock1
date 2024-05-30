@@ -151,13 +151,13 @@
     .cyber-clock{
         font-family: "Sixtyfour", sans-serif;
         width: 100%;
-        text-align: center;
         line-height: 1.5;
         font-size: 42px;
         width: 100%;
         height: 100%;
         margin-right: 50px;
         position: relative;
+        text-align: left;
 
         
 }
