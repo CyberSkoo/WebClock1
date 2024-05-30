@@ -110,7 +110,7 @@
         flex-direction: column;  /* Ensure column layout */
         align-items: center;  /* Center content vertically */
         justify-content: center;  /* Center content horizontally */
-        background-size: auto;
+        background-size: 100vh;
     }
     
     
