@@ -97,6 +97,10 @@
         font-family: 'Poppins', sans-serif;
         box-sizing: border-box;
     }
+    html, body {
+        height: 100%; /* Ensure html and body take up full height */
+    }
+
     .hero{
         width: 100%;
         min-height: 100vh;
@@ -106,8 +110,9 @@
         flex-direction: column;  /* Ensure column layout */
         align-items: center;  /* Center content vertically */
         justify-content: center;  /* Center content horizontally */
+        background-size: auto;
     }
-    }
+    
     
     
     .container{
