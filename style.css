@@ -101,8 +101,8 @@
 
     .hero{
         width: 100%;
-        min-height: 200vh;
-        min-width: 200vh;
+        min-height: 150vh;
+        min-width: 100vh;
         background: linear-gradient(45deg, #08001f, #30197d);
         color: #fff;
         position: relative;
@@ -155,6 +155,7 @@
         text-align: center;
         line-height: 1.5;
         font-size: 42px;
+        display: contents;
 }
 /*-----------------------*/
 
